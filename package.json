@@ -1,5 +1,5 @@
 {
-	"name": "@kaperskyguru/adonis-cache",
+	"name": "@farshadfahimi/adonis-cache",
 	"version": "2.1.0",
 	"description": "Adonis Cache Package",
 	"main": "build/providers/CacheProvider",

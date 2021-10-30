@@ -19,7 +19,7 @@ class Cache implements CacheInterface {
 	}
 
 	public async set(name: string, data: any, minutes: number): Promise<any> {
-		if (name && data) {
+		if (name && data !== null) {
 			return await this.cacheService.set(name, data, minutes)
 		}
 		throw new Error('Specify a name and data to cache')
